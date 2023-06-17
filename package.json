@@ -1,0 +1,35 @@
+{
+  "name": "off.net-docs",
+  "version": "1.0.0",
+  "description": "The official OFF.NET documentation",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunt-programator/off.net-docs.git"
+  },
+  "keywords": [
+    "off.net",
+    "pdf",
+    "pdf-generator",
+    "generator",
+    "dotnet",
+    ".net",
+    "vitepress",
+    "vite",
+    "vue"
+  ],
+  "author": "Victor Pogor",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/sunt-programator/off.net-docs/issues"
+  },
+  "homepage": "https://github.com/sunt-programator/off.net-docs#readme",
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.2"
+  }
+}
